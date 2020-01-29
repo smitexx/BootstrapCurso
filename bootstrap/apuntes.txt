@@ -1,0 +1,21 @@
+GRID DE BOOTSTRAP
+
+siempre necesita 12 columnas que se pueden dividir en la forma que queramos.
+
+CLASES: PARA LOS COMPONENTES
+
+DIV -> container, container-fluid -> posiciona el contenido en el centro o en la esquina.
+
+1)clase row -> fila, esta clase se le pone al componente padre que engloba las columnas
+2)clase col-lg-x -> large para ordenadores
+      col-md-x -> medium para tablets y pcs 
+      col-sm-x -> small para móviles y tablets
+      col-xs-x -> extra small para móviles
+3)    offset-md-x -> para mover una columna tantas columnas como queramos a la derecha.
+<div class= "row">  //Ejemplo. La suma de las columnas debe ser 12.
+    <section class="col-md-9">
+
+    <aside class = "col-md-3">
+
+4)clase clearfix -> errores de float
+
